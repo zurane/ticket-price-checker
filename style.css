@@ -1,0 +1,186 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  text-align: center;
+  margin: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+
+  background: rgb(255, 255, 255);
+}
+
+ul li {
+  list-style: none;
+  padding: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  max-width: 800px;
+  height: 40vh;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.container > .wrapper {
+  margin-top: 80px;
+}
+
+.container > .wrapper #error__message {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container > .wrapper > .step__one h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 25px;
+}
+
+.container > .wrapper > .step__one input {
+  border: none;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  width: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+  resize: none;
+}
+
+container > .wrapper > .step__one #age {
+  border: none;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  width: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+  resize: none;
+}
+
+.container > .wrapper > .step__one input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.container > .wrapper > .step__one button {
+  padding: 0.9rem 1.5rem;
+  margin-top: 16px;
+  width: 36.5%;
+  cursor: pointer;
+
+  background: rgb(7, 216, 129);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.content > header {
+  margin-right: auto;
+  margin-left: auto;
+  height: 80vh;
+  width: 60vw;
+  border-radius: 10px;
+  background-image: url(./assets/33631.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container > .wrapper > .step__two > h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 25px;
+}
+
+container > .wrapper > .step__two > input {
+  border: none;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  width: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+  resize: none;
+}
+
+.container > .wrapper > .step__two > input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.container > .wrapper > .step__two > button {
+  padding: 0.9rem 1.5rem;
+  margin-top: 16px;
+  width: 36.5%;
+  cursor: pointer;
+
+  background: rgb(7, 216, 129);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.confirm {
+  margin-top: 20px;
+}
+
+.confirm > h3 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+}
+
+.confirm > .material-symbols-outlined {
+  font-size: 40px;
+  color: #07d881;
+}
+
+.confirm > #confirm-btn {
+  padding: 0.9rem 1.5rem;
+  background: #07d881;
+  color: white;
+  border: none;
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding-top: 80px;
+}
